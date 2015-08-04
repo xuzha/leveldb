@@ -3,7 +3,7 @@
 This is a rewrite (port) of [LevelDB](http://code.google.com/p/leveldb/) in
 Java.  This goal is to have a feature complete implementation that is within
 10% of the performance of the C++ original and produces byte-for-byte exact
-copies of the C++ code.
+copies of the C++ code. 
 
 # Current status
 
@@ -146,3 +146,5 @@ Destroying a database.
 
 * [ActiveMQ Apollo](http://activemq.apache.org/apollo/): Defaults to using leveldbjni, but falls 
   back to this port if the jni port is not available on your platform.
+
+More need to do
